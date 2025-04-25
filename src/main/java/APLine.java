@@ -6,7 +6,7 @@ public class APLine
     slope  = (double) a / (double) b ; }
   public double getslope() { return slope; } 
   public APLine ( int a, int b, int c) { 
-                 this.a; this.b; this.c; }
+                 this.a=a; this.b=b; this.c=c; }
   public boolean isOnLine(int x, int y){ 
     return ( (a*y + b*y + c)==0);
   } 
