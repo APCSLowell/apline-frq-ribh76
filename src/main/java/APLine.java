@@ -1,4 +1,3 @@
-public class APLine
 public class APLine {
   private int a;
   private int b;
